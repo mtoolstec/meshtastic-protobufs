@@ -715,6 +715,11 @@ message ModuleConfig {
      * ExternalNotificationModule can benefit from this feature.
      */
     bool send_bell = 11;
+
+    /*
+     * List of canned messages.
+     */
+    string messages = 12;
   }
 
   /*
